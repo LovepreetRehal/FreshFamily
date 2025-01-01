@@ -19,6 +19,9 @@ class HomeBannerOne extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("isBannerOneInitial: ${homeData!.isBannerOneInitial}");
+    print(" isBannerOneInitial bannerOneImageList length: ${homeData!.bannerOneImageList.length}");
+
     if (homeData!.isBannerOneInitial &&
         homeData!.bannerOneImageList.length == 0) {
       return Padding(

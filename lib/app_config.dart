@@ -8,7 +8,8 @@ class AppConfig {
   static String purchase_code =
       "purchase-code"; //enter your purchase code for the app from codecanyon
   static String system_key =
-      r"system-key"; //enter your purchase code for the app from codecanyon
+      "pejFFgsdkfh"; //enter your purchase code for the app from codecanyon
+      // r"system-key"; //enter your purchase code for the app from codecanyon
 
   //Default language config
   static String default_language = "en";
