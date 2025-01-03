@@ -26,7 +26,7 @@ class HomeBannerOne extends StatelessWidget {
         homeData!.bannerOneImageList.length == 0) {
       return Padding(
           padding:
-              const EdgeInsets.only(left: 18.0, right: 18, top: 10, bottom: 20),
+          const EdgeInsets.only(left: 18.0, right: 18, top: 10, bottom: 20),
           child: ShimmerHelper().buildBasicShimmer(height: 120));
     } else if (homeData!.bannerOneImageList.length > 0) {
       return Padding(
